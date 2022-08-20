@@ -1,0 +1,14 @@
+.app__blogpost {
+    margin: 3rem 0;
+}
+.app__blogpost h1{
+    text-align: center;
+}
+.app__blogpost_content{
+    padding: 1rem 10rem;
+}
+@media screen and (max-width:800px) {
+    .app__blogpost_content{
+        padding: 1rem 2rem;
+    }
+}
